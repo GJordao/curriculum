@@ -47,8 +47,8 @@ const styles = {
         fontSize: 15,
         fontWeight: 300,
         marginLeft: 10,
-        marginTop: 5,
-        textAlign: "justify",
+        marginTop: 8,
+        textAlign: "left",
         maxWidth: "95%"
     },
     subTitle: {
@@ -77,15 +77,20 @@ class App extends Component {
                         {/* EXPERIENCE */}
                         <div style={styles.block}>
                             <div style={styles.subTitle}>Experience</div>
+                            {/* CONSULTANT START */}
+                            <div style={styles.companyName}>RLDatix</div>
+                            <div style={styles.date}>02/2019 - Current</div>
+                            <div style={styles.job}>Fullstack development</div>
+                            <div style={styles.job}>Project architecture</div>
+                            <div style={styles.job}>Consultant</div>
                             {/* EVODECK - START */}
                             <div style={styles.companyName}>
                                 Evodeck Software
                             </div>
-                            <div style={styles.date}>04/2017 - Current</div>
+                            <div style={styles.date}>04/2017 - 01/2019</div>
                             <div style={styles.job}>Fullstack development</div>
-                            <div style={styles.job}>Dev ops</div>
                             <div style={styles.job}>Team leading</div>
-                            <div style={styles.job}>Project architecture</div>
+                            <div style={styles.job}>CI / CD</div>
                             {/* CIBERSUR - START */}
                             <div style={styles.companyName}>
                                 Cibersur (curricular internship)
@@ -105,51 +110,29 @@ class App extends Component {
                             <div style={styles.date}>05/2012 - 07/2012</div>
                             <div style={styles.job}>IT Support</div>
                         </div>
-                        {/* EDUCATION */}
-                        <div style={styles.block}>
-                            <div style={styles.subTitle}>Education</div>
-                            {/* UALG - START */}
-                            <div style={styles.companyName}>
-                                Licenciatura in Computer Engineering
-                            </div>
-                            <div style={styles.date}>
-                                Universidade do Algarve
-                            </div>
-                            {/* IPS - START */}
-                            <div style={styles.companyName}>
-                                Specialization in Technology and Information
-                                Systems Programming
-                            </div>
-                            <div style={styles.date}>
-                                Instituto Politécnico de Setúbal
-                            </div>
-                            {/* ESA - START */}
-                            <div style={styles.companyName}>
-                                Management of Information Systems and Computer
-                                Programming
-                            </div>
-                            <div style={styles.date}>
-                                Escola Secundária de Aljustrel
-                            </div>
-                        </div>
                         {/* EVENTS */}
-                        <div style={styles.block}>
+                        <div style={{ ...styles.block, marginTop: 39 }}>
                             <div style={styles.subTitle}>Events</div>
-                            <div style={styles.paragraph}>
-                                "React Workshop" - Speaker at Instituto
-                                Politécnico de Beja
-                            </div>
-                            <div style={styles.paragraph}>
-                                "React-Native is AWESOME" - Speaker at Geek
-                                Sessions Faro
-                            </div>
-                            <div style={styles.paragraph}>
-                                Participant in Shift Faro hackathon
-                            </div>
-                            <div style={styles.paragraph}>
-                                Participant in Pixels Camp (1st and 2nd
-                                editions)
-                            </div>
+                            <ul style={{paddingLeft: 15}} >
+                                <li style={styles.paragraph}>
+                                    Attendee at JSConf Budapest 2019
+                                </li>
+                                <li style={styles.paragraph}>
+                                    "React Workshop" - Speaker at Instituto
+                                    Politécnico de Beja
+                                </li>
+                                <li style={styles.paragraph}>
+                                    "React-Native is AWESOME" - Speaker at Geek
+                                    Sessions Faro
+                                </li>
+                                <li style={styles.paragraph}>
+                                    Participant in Shift Faro hackathon
+                                </li>
+                                <li style={styles.paragraph}>
+                                    Participant in Pixels Camp (1st, 2nd and 3rd
+                                    editions)
+                                </li>
+                            </ul>
                         </div>
                     </Column>
                     <Column>
@@ -158,6 +141,16 @@ class App extends Component {
                             <div style={styles.subTitle}>
                                 Recent Projects and Technologies
                             </div>
+                            {/* DATIX */}
+                            <div style={styles.companyName}>
+                                Service to export and import specific data from
+                                across multiple other services related to
+                                healthcare
+                            </div>
+                            <div style={styles.job}>Node & Hapi</div>
+                            <div style={styles.job}>KnexJS</div>
+                            <div style={styles.job}>MSSQL</div>
+                            <div style={styles.job}>SQLite</div>
                             {/* EDU - START */}
                             <div style={styles.companyName}>
                                 Web application that allows preparing and
@@ -170,17 +163,6 @@ class App extends Component {
                             <div style={styles.job}>Kubernetes</div>
                             <div style={styles.job}>Docker</div>
                             <div style={styles.job}>CI / CD with Circle CI</div>
-                            {/* LTS - START */}
-                            <div style={styles.companyName}>
-                                Integration of a module in an enterprise system
-                                that manages various exams
-                            </div>
-                            <div style={styles.job}>.NET Framework</div>
-                            <div style={styles.job}>React</div>
-                            <div style={styles.job}>SQL Server</div>
-                            <div style={styles.job}>
-                                CI with Visual Studio Team Services
-                            </div>
                             {/* COACH - START */}
                             <div style={styles.companyName}>
                                 Web and mobile application to manage workflows
@@ -205,15 +187,15 @@ class App extends Component {
                             <div style={styles.paragraph}>
                                 I am a tech enthusiast with a craving for
                                 learning who enjoys attending tech events and
-                                participating in hackathons. I love to talk to
+                                participating in hackathons. I love talking to
                                 other people about technology and share
-                                knowledge because I think this is the best way
-                                of learning.
+                                knowledge as I think this is the best way of
+                                learning.
                             </div>
                             <div style={styles.paragraph}>
-                                I like relaxed work environments that have a
-                                great sense of humor and people can become
-                                friends.
+                                I like relaxed work environments where trust is
+                                the key to success, where people have a great
+                                sense of humor and can become friends.
                             </div>
                             <div style={styles.paragraph}>
                                 I practiced competitive swimming for about five
