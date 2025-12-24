@@ -1,0 +1,100 @@
+.email {
+  margin-left: 5px;
+}
+
+.header {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 12mm;
+  margin-right: 12mm;
+}
+
+.headerLowerLine {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  font-style: italic;
+  font-weight: 300;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.line {
+  background-color: #000000;
+  height: 1px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.name {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.secondName {
+  margin-right: 10px;
+  color: #808080;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.name {
+  margin: 0;
+}
+
+.line {
+  border: none;
+  margin: 0;
+}
+
+.email {
+  font-style: normal;
+  margin: 0;
+}
+
+.email a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title {
+  margin: 0;
+}
+
+.footerInnerContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  width: 25%;
+}
+
+.icon {
+  height: 15px;
+  margin-right: 5px;
+  width: 15px;
+}
+
+.link {
+  align-items: center;
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-style: none;
+  text-decoration: none;
+}
+
+.separator {
+  background-color: #000000;
+  height: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 1px;
+}
